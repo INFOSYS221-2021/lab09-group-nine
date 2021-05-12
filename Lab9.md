@@ -179,9 +179,6 @@ async function getACard() {
   // Do not change this
   if (response.status === 200) {
     let cardInfo = await response.json();
-    console.log("*******************");
-    console.log(cardInfo);
-    console.log("*******************");
     return cardInfo;
   }
 }
