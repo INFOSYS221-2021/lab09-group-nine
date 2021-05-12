@@ -31,6 +31,8 @@ in this case you can use https://deckofcardsapi.com/api/deck/new/ with GET in th
 
 ### What is the API for getting a brand new deck that also includes two jokers?
 
+https://deckofcardsapi.com/api/deck/new/?jokers_enabled=true
+
 ### Looking at the following example response from the Deck of Cards API (Links to an external site.).
 
 
