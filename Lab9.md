@@ -61,6 +61,30 @@ https://deckofcardsapi.com/api/deck/new/?jokers_enabled=true
 
 #### How do you retrieve deck_id from the response? Write your code using JavaScript.
 
+```javascript
+    mydeck = 
+    {"success": true,
+    "cards": [
+        {
+            "image": "https://deckofcardsapi.com/static/img/KH.png",
+            "value": "KING",
+            "suit": "HEARTS",
+            "code": "KH"
+        },
+        {
+            "image": "https://deckofcardsapi.com/static/img/8C.png",
+            "value": "8",
+            "suit": "CLUBS",
+            "code": "8C"
+        }
+    ],
+    "deck_id":"3p40paa87x90",
+    "remaining": 50
+}
+
+console.log(mydeck.deck_id);
+```
+
 #### How do you print information about each card? Write your code using JavaScript.
 
 
