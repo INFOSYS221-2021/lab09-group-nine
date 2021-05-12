@@ -19,6 +19,16 @@ in this case you can use https://deckofcardsapi.com/api/deck/new/ with GET in th
 
 ### List all available features that you can use from Deck of Cards. For example, one of the APIs you can use is to shuffle cards.
 
+- shuffle deck
+- draw cards
+- reshuffle
+- get a brand new deck
+- get a partial deck
+- add to pile
+- shuffle piles
+- list cards in pile
+- draw from pil
+
 ### What is the API for getting a brand new deck that also includes two jokers?
 
 ### Looking at the following example response from the Deck of Cards API (Links to an external site.).
@@ -29,9 +39,6 @@ in this case you can use https://deckofcardsapi.com/api/deck/new/ with GET in th
 ### How do you retrieve deck_id from the response? Write your code using JavaScript.
 
 ### How do you print information about each card? Write your code using JavaScript.
-
-
-
 
 
 
