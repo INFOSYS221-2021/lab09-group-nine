@@ -249,5 +249,6 @@ function restartGame() {
   hitMeSum.innerHTML = "Click Hit Me! to start playing!"
   hitMeCards.innerHTML = "";
 }
-3. Read and understand the JavaScript code snippet from previous step. Complete all six TODOs. Once you have completed the code, you will be able to run the game and see the cards on screen when you click the Hit Me! button.
 ```
+### 3. Read and understand the JavaScript code snippet from previous step. Complete all six TODOs. Once you have completed the code, you will be able to run the game and see the cards on screen when you click the Hit Me! button.
+
