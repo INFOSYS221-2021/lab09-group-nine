@@ -52,7 +52,8 @@ https://deckofcardsapi.com/api/deck/new/?jokers_enabled=true
     ],
     "deck_id":"3p40paa87x90",
     "remaining": 50
-}```
+}
+```
 
 #### How many cards are drawn from the deck? What are the cards? 
 2 card are drawn, the King of Hearts and the 8 of Clubs
