@@ -34,6 +34,26 @@ in this case you can use https://deckofcardsapi.com/api/deck/new/ with GET in th
 https://deckofcardsapi.com/api/deck/new/?jokers_enabled=true
 
 ### Looking at the following example response from the Deck of Cards API (Links to an external site.)
+```{
+    "success": true,
+    "cards": [
+        {
+            "image": "https://deckofcardsapi.com/static/img/KH.png",
+            "value": "KING",
+            "suit": "HEARTS",
+            "code": "KH"
+        },
+        {
+            "image": "https://deckofcardsapi.com/static/img/8C.png",
+            "value": "8",
+            "suit": "CLUBS",
+            "code": "8C"
+        }
+    ],
+    "deck_id":"3p40paa87x90",
+    "remaining": 50
+}```
+
 #### How many cards are drawn from the deck? What are the cards? 
 2 card are drawn, the King of Hearts and the 8 of Clubs
 
