@@ -101,7 +101,7 @@ for (var card of mydeck.cards) {
 ###Follow the instructions below to complete the Hit Me! game. To test your code, please use CodePen (Links to an external site.) or JSFiddle (Links to an external site.). 
 
 ###1. Open either  CodePen (Links to an external site.) or JSFiddle (Links to an external site.) and copy the following code snippet under the HTML section.
-
+``
 <h1>Hit Me!</h1>
 <div>
   Try to get the total value of your cards closer to zero within 5 hits!
@@ -126,4 +126,4 @@ for (var card of mydeck.cards) {
 <div id="hitMeCards">
 
 </div>
-
+```
