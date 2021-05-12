@@ -338,7 +338,7 @@ function getValueFromCard(cardInfo) {
 // and updates the HTML
 function updateCardImg(cardInfo) {
     // TODO 6: find the image of the card
-  let imgUrl = cardInfo;
+  let imgUrl = cardInfo.image;
   
   // update HTML. Do not change this.
   hitMeCards.innerHTML += "<img src='" + imgUrl + "' width='100' />";
