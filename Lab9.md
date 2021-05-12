@@ -323,6 +323,9 @@ function getValueFromCard(cardInfo) {
   else if (cardValue == 'KING') {
     cardValue = 13;
   } 
+  else if (cardValue == 'ACE') {
+    cardValue = 1;
+  } 
   
   // if a card is red, then the value will be negative
   // Do not change this.
