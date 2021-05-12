@@ -132,6 +132,7 @@ for (var card of mydeck.cards) {
 
 ```javascript
 // Initialise the values at the start of the game
+// Initialise the values at the start of the game
 // Do not change this part!
 let thisDeck;
 let numOfHits = 0;
@@ -159,7 +160,7 @@ async function createDeck() {
     let data = await response.json();
 
     // TODO 2: get the id of the deck from data
-    deckID = response.deck_id;
+    deckID = data["deck_id"];
     return deckID;
   }
 }
@@ -171,11 +172,14 @@ async function getACard() {
   // from the deck created at the start of the game
   // Hint: use the variable thisDeck
   let response = await fetch('https://deckofcardsapi.com/api/deck/' + thisDeck + '/draw/?count=1');
-  
+  //console.log(response);
   // retun card information
   // Do not change this
   if (response.status === 200) {
     let cardInfo = await response.json();
+    console.log("*******************");
+    console.log(cardInfo);
+    console.log("*******************");
     return cardInfo;
   }
 }
@@ -184,8 +188,8 @@ async function getACard() {
 // based on cardInfo
 function getValueFromCard(cardInfo) {
   // TODO 4: find the value and suit of the card
-  let cardValue = cardInfo.value;
-  let cardSuit = cardInfo.suit;
+  let cardValue = cardInfo["cards"][0]["value"];
+  let cardSuit = cardInfo["cards"][0]["suit"];
   
   // TODO 5: update the cardValue appropriately
   // if card is Jack, then set the cardValue to 11, etc
@@ -216,7 +220,8 @@ function getValueFromCard(cardInfo) {
 // and updates the HTML
 function updateCardImg(cardInfo) {
     // TODO 6: find the image of the card
-  let imgUrl = cardInfo.image;
+    /* console.log(cardInfo) */;
+  let imgUrl = cardInfo["cards"][0]["image"];
   
   // update HTML. Do not change this.
   hitMeCards.innerHTML += "<img src='" + imgUrl + "' width='100' />";
@@ -237,6 +242,7 @@ async function playGame() {
   // get card information and image, and
   // update the sum of cards
   cardInfo = await getACard();
+  console.log(cardInfo);
   updateCardImg(cardInfo);
   sum += getValueFromCard(cardInfo);
   
