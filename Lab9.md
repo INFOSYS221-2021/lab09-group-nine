@@ -3,7 +3,7 @@
 - Patrik Bolander
 - Ethan Goh
 - Mahir Chand
-<p>
+
 ## Exercise One: Understand Deck of Cards
 Go to the Deck of Cards API (Links to an external site.), read through the page, and answer the following questions.
 
@@ -98,7 +98,6 @@ for (var card of mydeck.cards) {
     console.log(card.code)
 }
 ```
-</p>
 
 ## Exercise Two: Complete Hit Me! Game with Deck of Cards API
 ### Follow the instructions below to complete the Hit Me! game. To test your code, please use CodePen (Links to an external site.) or JSFiddle (Links to an external site.). 
