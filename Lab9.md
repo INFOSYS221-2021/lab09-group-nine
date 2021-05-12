@@ -96,3 +96,34 @@ for (var card of mydeck.cards) {
 }
 ```
 </p>
+
+##Exercise Two: Complete Hit Me! Game with Deck of Cards API
+###Follow the instructions below to complete the Hit Me! game. To test your code, please use CodePen (Links to an external site.) or JSFiddle (Links to an external site.). 
+
+###1. Open either  CodePen (Links to an external site.) or JSFiddle (Links to an external site.) and copy the following code snippet under the HTML section.
+'''
+<h1>Hit Me!</h1>
+<div>
+  Try to get the total value of your cards closer to zero within 5 hits!
+</div>
+<h3>How to play</h3>
+<div>
+  <ul>
+    <li>Click "Hit Me!" to get a card</li>
+    <li>Each card has a value. Aces count as 1, Jacks count as 11, Queens count as 12, and Kings count as 13.</li>
+    <li>Black cards are added to the total. Red cards are substracted from the total.</li>
+    <li>You may take up to 5 hits</li>
+  </ul>
+</div>
+<div>
+  <input type="button" id="hitMeBtn" value="Hit Me!">
+  <input type="button" id="restartBtn" value="Restart" disabled="disabled">
+</div>
+<hr />
+<div id="hitMeSum">
+  Click Hit Me! to start playing!
+</div>
+<div id="hitMeCards">
+
+</div>
+'''
