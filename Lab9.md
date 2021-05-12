@@ -8,6 +8,7 @@ Go to the Deck of Cards API (Links to an external site.), read through the page,
 A GET method is you asking the server for a payload or a response back from the server.
 in this case you can use https://deckofcardsapi.com/api/deck/new/ with GET in the parameters to retrieve a json response 
 ```
+
 {
     "success": true,
     "deck_id": "3p40paa87x90",
