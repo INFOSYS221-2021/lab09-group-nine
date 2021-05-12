@@ -87,7 +87,12 @@ console.log(mydeck.deck_id);
 
 #### How do you print information about each card? Write your code using JavaScript.
 
-
-
-
+```javascript
+for (var card of mydeck.cards) {
+    console.log(card.image)
+    console.log(card.value)
+    console.log(card.suit)
+    console.log(card.code)
+}
+```
 </p>
