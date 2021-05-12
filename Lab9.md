@@ -33,10 +33,9 @@ in this case you can use https://deckofcardsapi.com/api/deck/new/ with GET in th
 
 https://deckofcardsapi.com/api/deck/new/?jokers_enabled=true
 
-### Looking at the following example response from the Deck of Cards API (Links to an external site.).
-
-
+### Looking at the following example response from the Deck of Cards API (Links to an external site.)
 ### How many cards are drawn from the deck? What are the cards? 
+2 card are drawn, the King of Hearts and the 8 of Clubs
 
 ### How do you retrieve deck_id from the response? Write your code using JavaScript.
 
