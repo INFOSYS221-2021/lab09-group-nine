@@ -97,10 +97,10 @@ for (var card of mydeck.cards) {
 ```
 </p>
 
-##Exercise Two: Complete Hit Me! Game with Deck of Cards API
-###Follow the instructions below to complete the Hit Me! game. To test your code, please use CodePen (Links to an external site.) or JSFiddle (Links to an external site.). 
+## Exercise Two: Complete Hit Me! Game with Deck of Cards API
+### Follow the instructions below to complete the Hit Me! game. To test your code, please use CodePen (Links to an external site.) or JSFiddle (Links to an external site.). 
 
-###1. Open either  CodePen (Links to an external site.) or JSFiddle (Links to an external site.) and copy the following code snippet under the HTML section.
+### 1. Open either  CodePen (Links to an external site.) or JSFiddle (Links to an external site.) and copy the following code snippet under the HTML section.
 ```
 <h1>Hit Me!</h1>
 <div>
