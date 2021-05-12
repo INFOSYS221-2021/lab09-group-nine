@@ -27,7 +27,7 @@ in this case you can use https://deckofcardsapi.com/api/deck/new/ with GET in th
 - add to pile
 - shuffle piles
 - list cards in pile
-- draw from pil
+- draw from pile
 
 ### What is the API for getting a brand new deck that also includes two jokers?
 
