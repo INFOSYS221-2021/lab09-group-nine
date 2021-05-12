@@ -1,9 +1,9 @@
 # Week 9 lab 9 
-<p>
+
 - Patrik Bolander
 - Ethan Goh
 - Mahir Chand
-
+<p>
 ## Exercise One: Understand Deck of Cards
 Go to the Deck of Cards API (Links to an external site.), read through the page, and answer the following questions.
 
